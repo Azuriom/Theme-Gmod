@@ -1,0 +1,27 @@
+{
+    "title": "Lorem ipsum",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut euismod risus mauris, eget congue turpis maximus vehicula. Aliquam bibendum, lectus ut sodales elementum, libero velit aliquam nisl, eget elementum sapien quam a purus. Cras sit amet lectus vel nisl ullamcorper auctor a quis est. Nullam ut consectetur nunc. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur placerat pulvinar ante, vel pretium lectus maximus id. Duis euismod purus lacus, maximus vestibulum odio accumsan at. Ut pretium sit amet lacus sit amet scelerisque. Mauris facilisis vitae enim id sodales. Sed porta consequat diam eget sodales. Nam vitae elementum ipsum.",
+    "show_server": "on",
+    "title_button": "Join our server",
+    "button_link": "/",
+    "footer_links": [
+        {
+            "name": "Link 1",
+            "value": "https://azuriom.com"
+        },
+        {
+            "name": "Link 2",
+            "value": "https://azuriom.com"
+        },
+        {
+            "name": "Link 3",
+            "value": "https://azuriom.com"
+        }
+    ],
+    "footer_social_twitter": "https://twitter.com/Azuriom",
+    "footer_social_discord": "https://azuriom.com/discord",
+    "footer_social_steam": "https://steamcommunity.com",
+    "footer_social_youtube": "https://youtube.com",
+    "footer_social_teamspeak": "ts3server://ts.azuriom.com",
+    "footer_social_instagram": "https://www.instagram.com"
+}

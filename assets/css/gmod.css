@@ -1,0 +1,224 @@
+@font-face {
+    font-family: 'Coolvetica';
+    src: url("../fonts/coolvetica-rg.ttf") format("truetype");
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.content {
+    padding-top: 50px;
+}
+
+#app {
+    flex: 1 0 auto;
+}
+
+.navbar {
+    padding: 1rem 0.1rem;
+}
+.navbar-brand {
+    font-family: 'Coolvetica', sans-serif;
+    font-size: 2rem;
+}
+
+.navbar-nav {
+    font-size: 18px;
+}
+
+.navbar-nav div a:hover {
+    transition-duration: .3s;
+    background-color: #0092ff;
+    color: rgba(255,255,255,.9);
+    transition: all .3s
+}
+
+.navbar-nav .dropdown-menu {
+    text-align: center;
+}
+
+.dropdown-menu, .dropdown-item, .dropdown-item:hover {
+    background-color: #007bff;
+    color: rgba(255,255,255,.5);
+}
+
+.navbar .navbar-nav .nav-item {
+    line-height: 1;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.navbar .navbar-nav .nav-item:after {
+    content: '';
+    width: 0;
+    height: 1px;
+    background: #ffffff;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    transition: all 0.3s ease;
+}
+
+.navbar .navbar-nav .nav-item:not(.nav-item-icon):hover:after {
+    width: 100%;
+}
+
+@media (max-width: 990px) {
+    .navbar .navbar-nav .nav-item {
+        display: inline-block;
+    }
+}
+
+.welcome {
+    background-color: rgba(0, 123, 255, 0.6);
+}
+
+.welcome h1, .welcome p {
+    font-family: 'Coolvetica', sans-serif;
+}
+
+.dropdown-header {
+    color: #fff;
+}
+
+#notificationsDropdown {
+    color: rgba(255,255,255,.7);
+}
+
+#navbarSupportedContent {
+    text-align: center!important;
+}
+
+.server{
+    box-shadow: 13px 11px 22px 0px rgba(0,94,255,0.7);
+}
+
+.server h1, .server h2 {
+    word-break: break-word;
+}
+
+@media (max-width: 768px) {
+    .server h1 {
+        font-size: 1.5rem;
+    }
+    .server h2 {
+        font-size: 1rem;
+    }
+}
+
+.post {
+    padding: 2rem;
+    color: #007bff;
+}
+
+.post a {
+    text-decoration: none;
+}
+
+.post h1 {
+    font-size: 60px;
+    padding-left: 15px;
+    border-left: 10px solid #007bff;
+}
+
+.post h1, .post h2, .post .h4 {
+    font-family: 'Coolvetica', sans-serif;
+}
+
+footer {
+    background-color: #005cc1;
+    padding: 2rem 0;
+}
+
+footer i {
+    color: rgba(255,255,255,.7);
+    padding: 0.3rem;
+}
+
+footer a {
+    color: rgba(255,255,255,.9);
+}
+
+footer a:hover {
+    color: rgba(11, 162, 255, 0.9);
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+footer .col-md-4:not(.brand) {
+    border-right: 1px solid #007bff;
+}
+
+footer .links .fas {
+    transition: transform .2s ease-in-out;
+}
+
+footer .links a:hover .fas {
+    transform: translate3d(5px, 0, 0);
+}
+
+.icon {
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    height: 3rem;
+    width: 3rem;
+}
+
+footer .brand-footer {
+    align-items: center;
+}
+
+footer .brand-footer img {
+    max-width: 60px;
+}
+
+footer .brand-footer .vertical-divide {
+    background-color: #007bff;
+    width: 2px;
+    height: 70px;
+    margin: 0 1.5rem;
+}
+
+@media (max-width: 768px) {
+    footer {
+        padding: 1rem;
+    }
+
+    footer .col-md-4 {
+        padding: 1rem;
+        text-align: center;
+    }
+
+    footer .col-md-4:not(.brand) {
+        border-bottom: 1px solid #007bff;
+        border-right: 0;
+    }
+}
+
+.card-header {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.badge {
+    font-family: sans-serif;
+}
+
+.page-title{
+    color: #007bff;
+    font-size: 40px;
+    padding-left: 10px;
+    border-left: 6px solid #007bff;
+}
