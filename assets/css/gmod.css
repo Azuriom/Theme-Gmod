@@ -24,6 +24,7 @@ body {
 
 .navbar {
     padding: 1rem 0.1rem;
+    border-bottom: 8px solid #fff;
 }
 .navbar-brand {
     font-family: 'Coolvetica', sans-serif;

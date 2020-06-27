@@ -10,7 +10,7 @@ return [
         'discord' => '<span class="count">:count</span> members online',
     ],
     'post' => [
-        'post' => 'Post',
+        'post' => 'Posts',
     ],
     'footer' => [
         'links' => 'Links',
