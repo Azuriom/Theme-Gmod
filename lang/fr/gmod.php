@@ -25,5 +25,13 @@ return [
         'home_description' => 'Description  de la page d\'accueil',
         'footer_links' => 'Liens du footer',
     ],
+        'links' => [
+        'twitter' => 'Twitter',
+        'youtube' => 'YouTube',
+        'discord' => 'Discord',
+        'steam' => 'Steam',
+        'teamspeak' => 'TeamSpeak',
+        'instagram' => 'Instagram',
+    ],
     'play' => 'Jouer',
 ];
