@@ -25,7 +25,7 @@ return [
         'home_description' => 'Description  de la page d\'accueil',
         'footer_links' => 'Liens du footer',
     ],
-        'links' => [
+    'links' => [
         'twitter' => 'Twitter',
         'youtube' => 'YouTube',
         'discord' => 'Discord',
